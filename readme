@@ -1,0 +1,25 @@
+Saturação (enhancer.enhance(x)):
+
+Valor típico: 1.0 (sem alteração).
+Menor que 1.0: Reduz a intensidade das cores (torna as cores mais opacas).
+Maior que 1.0: Aumenta a intensidade das cores (as cores se tornam mais vibrantes).
+Brilho (enhancer.enhance(x)):
+
+Valor típico: 1.0 (sem alteração).
+Menor que 1.0: Diminui o brilho geral da imagem (torna a imagem mais escura).
+Maior que 1.0: Aumenta o brilho (torna a imagem mais clara).
+Contraste (enhancer.enhance(x)):
+
+Valor típico: 1.0 (sem alteração).
+Menor que 1.0: Reduz o contraste (as diferenças entre áreas claras e escuras são suavizadas).
+Maior que 1.0: Aumenta o contraste (as diferenças entre áreas claras e escuras são acentuadas).
+Nitidez (enhancer.enhance(x)):
+
+Valor típico: 1.0 (sem alteração).
+Menor que 1.0: Reduz a nitidez (a imagem aparece mais suave).
+Maior que 1.0: Aumenta a nitidez (os detalhes se tornam mais evidentes).
+Desfoque (ImageFilter.GaussianBlur(radius)):
+
+Radius 1.0: Aplicação suave do desfoque.
+Radius menor que 1.0: Efeito de desfoque quase imperceptível.
+Radius maior que 1.0: Aumenta o nível de desfoque, borrando mais a imagem.
